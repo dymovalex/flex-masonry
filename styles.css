@@ -1,0 +1,41 @@
+body {
+  background-color: bisque;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.masonry-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.masonry-column {
+  flex: 1 1 0px;
+  border: 1px dotted gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.masonry-card {
+  flex-grow: 1;
+  height: auto;
+}
+
+.container {
+  width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+
+.card {
+  margin: 10px;
+  border: 1px solid purple;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.card h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
